@@ -1,0 +1,168 @@
+body {
+    columns: #333333;
+    font-family: Arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0; 
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+
+.nice-font {
+    font-size: 50px;
+    font-family: 'Roboto', cursive;
+    color: Crimson;
+    margin: 30px 30px 30px 30px;
+    padding:0;
+}
+
+.nice-font-blue {
+    font-size: 50px;
+    font-family: 'Roboto', cursive;
+    color: DodgerBlue;
+    margin: 30px 30px 30px 30px;
+    padding:0;
+}
+
+.nice-font-black {
+    font-size: 50px;
+    font-family: 'Roboto', cursive;
+    color: Black;
+    margin: 30px 30px 30px 30px;
+    padding:0;
+}
+
+.nice-font-normal {
+    font-size: 25px;
+    font-family: 'Roboto', cursive;
+    color: Crimson;
+    margin: 30px 30px 30px 30px;
+    padding:0;
+}
+
+.nice-font-normal-black {
+    font-size: 25px;
+    font-family: 'Roboto', cursive;
+    color: Black;
+    margin: 30px 30px 30px 30px;
+    padding:0;
+}
+
+.nice-font-normal-blue {
+    font-size: 25px;
+    font-family: 'Roboto', cursive;
+    color: DodgerBlue;
+    margin: 30px 30px 30px 30px;
+    padding:0;
+}
+
+.nice-font-timer {
+    font-size: 100px;
+    font-family: 'Roboto', cursive;
+    color: black;
+    margin: 30px 30px 30px 30px;
+    padding:0;
+}
+
+.nice-font-timer2 {
+    font-size: 25px;
+    font-family: 'Roboto', cursive;
+    color: Crimson;
+    margin: 30px 30px 30px 30px;
+    padding:0;
+}
+
+.reset {
+  float:left;
+  width: 70%;
+  padding: 30px 0;
+
+  text-align:center;
+  color: #fff;
+  background: #A90000;
+  cursor: pointer
+}
+.reset {
+  background: #550000;
+  color: white;
+  width:33.0%;
+  border-left: 10px solid White;
+}
+.reset:hover {
+  background: #CC0000;
+}
+.lighter {
+  background: #CC0000
+}
+
+li:hover {
+  text-decoration: line-through;
+
+}
+
+#normal_stuff{
+    text-decoration:none;
+}
+
+#to_do_list{
+    font-size: 25px;
+    font-family: 'Roboto', cursive;
+
+}
+
+#input{
+    border: 0;
+
+}
+
+*:focus {
+    outline: none;
+}
+

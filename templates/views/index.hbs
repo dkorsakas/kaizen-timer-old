@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Kaizen Timer</title>
+    <link rel="icon" href="/img/clockicon.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Days+One|Archivo+Black|Gugi|Righteous|Patua One|Roboto|Roboto+Slab" rel="stylesheet">
+
+</head> 
+
+<body>
+   
+    {{>header}}
+    <div class="d-flex justify-content-center">
+      <p class="nice-font-black">To do list</p>
+    </div>
+    </div class="d-flex justify-content-center">
+    <div id="to_do_list">
+      <input id="input" size="32"  placeholder=" Type in something and press enter :) ">
+      <br>
+      <br>
+      <ul class="list-group" style="list-style: none;"  id="list"></ul>
+
+    </div>
+    <!-- To do list code taken https://enlight.nyc/projects/to-do/ -->
+    <div class="d-flex justify-content-center">
+      <div class="timer3 nice-font-timer" onclick="startTimer()">00:00:00</div>
+    </div>
+
+    <div class="d-flex justify-content-center nice-font-timer2">
+      <div class="startTimer reset" onclick="startTimer()" >Start working</div>
+      <div class="pauseTimer reset" onclick="pauseTimer()">Take a break</div>
+      <!-- <div class="resetTimer reset" onclick="resetTimer()">Reset</div> -->
+    </div>
+
+
+
+    <div class="d-flex justify-content-center">
+      <p class="nice-font"> Total time spent working</p>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="timer nice-font-timer" onclick="startTimer()">00:00:00</div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <p class="nice-font-blue"> Total time spent on breaks</p>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="timer2 nice-font-timer" onclick="startTimer()">00:00:00</div>
+    </div>
+   
+    {{>footer}}
+    
+    <script type="text/javascript" src="/js/stopWatch.1.js"></script>
+    <script type="text/javascript" src="/js/toDoList.js"></script>
+</body> 
+
+</html>
